@@ -8,6 +8,9 @@ export function ThemeToggle() {
   const [mounted, setMounted] = React.useState(false);
   const { resolvedTheme, setTheme } = useTheme();
 
+  // Standard next-themes pattern: flip `mounted` after hydration so the
+  // initial server-rendered placeholder doesn't reveal the client theme.
+  // eslint-disable-next-line react-hooks/set-state-in-effect
   React.useEffect(() => setMounted(true), []);
 
   // Reserve space before mount to prevent layout shift.
