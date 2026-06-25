@@ -5,13 +5,13 @@ export function CtaBand() {
   return (
     <section className="container-page py-32">
       <div className="relative overflow-hidden rounded-3xl border border-border bg-card p-12 md:p-20">
-        {/* Emerald glow */}
+        {/* Deep brass glow */}
         <div
           aria-hidden
           className="pointer-events-none absolute -left-32 -top-32 h-96 w-96 rounded-full"
           style={{
             background:
-              "radial-gradient(closest-side, oklch(0.42 0.08 175 / 16%), transparent 70%)",
+              "radial-gradient(closest-side, oklch(0.515 0.078 70 / 16%), transparent 70%)",
           }}
         />
         {/* Gold glow */}
@@ -26,7 +26,7 @@ export function CtaBand() {
 
         <div className="relative grid grid-cols-1 items-end gap-12 lg:grid-cols-12">
           <div className="lg:col-span-8">
-            <div className="mb-6 flex items-center gap-3 font-mono text-[11px] uppercase tracking-[0.3em] text-[var(--emerald)]">
+            <div className="mb-6 flex items-center gap-3 font-mono text-[11px] uppercase tracking-[0.3em] text-[var(--brass)]">
               <span className="h-px w-10 bg-[var(--gold)]" />
               Let&rsquo;s build
             </div>
@@ -34,7 +34,7 @@ export function CtaBand() {
               Have a product, brand,
               <br />
               or idea?{" "}
-              <em className="italic text-[var(--emerald)]">Let&rsquo;s build it.</em>
+              <em className="italic text-[var(--brass)]">Let&rsquo;s build it.</em>
             </h2>
             <p className="mt-6 max-w-lg text-base text-muted-foreground md:text-lg">
               Partnerships, ventures, or just a conversation — we&rsquo;re open.

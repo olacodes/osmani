@@ -40,11 +40,11 @@ export function Manifesto() {
             </span>
             <p className="font-display text-balance text-[2.25rem] leading-[1.12] tracking-[-0.015em] text-foreground md:text-[3.5rem]">
               Osmani builds where most companies don&rsquo;t — across the{" "}
-              <em className="font-display-italic text-gradient-gold-mint">
+              <em className="font-display-italic text-gradient-brass">
                 digital
               </em>{" "}
               and the{" "}
-              <em className="font-display-italic text-gradient-gold-mint">
+              <em className="font-display-italic text-gradient-brass">
                 physical
               </em>
               . Software to write the rules, and goods to move under them. From

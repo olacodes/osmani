@@ -46,7 +46,7 @@ export function Hero() {
               <AnimatedLine
                 words={["and"]}
                 trail={
-                  <em className="font-display-italic text-gradient-gold-mint">
+                  <em className="font-display-italic text-gradient-brass">
                     capital
                   </em>
                 }
@@ -139,8 +139,8 @@ function ShipLog() {
       className="inline-flex items-center gap-3 rounded-full border border-border bg-card/80 px-3.5 py-1.5 backdrop-blur"
     >
       <span className="relative flex h-1.5 w-1.5">
-        <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[var(--highlight)] opacity-75" />
-        <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-[var(--highlight)]" />
+        <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[var(--brass-soft)] opacity-75" />
+        <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-[var(--brass-soft)]" />
       </span>
       <span className="font-mono text-[10px] uppercase tracking-[0.28em] text-muted-foreground">
         Currently building

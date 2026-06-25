@@ -97,7 +97,7 @@ function ChattosalesMockup() {
         className="pointer-events-none absolute -right-24 -top-24 h-72 w-72 rounded-full"
         style={{
           background:
-            "radial-gradient(closest-side, oklch(0.71 0.12 165 / 18%), transparent 70%)",
+            "radial-gradient(closest-side, oklch(0.66 0.082 72 / 18%), transparent 70%)",
         }}
       />
 
@@ -119,12 +119,12 @@ function ChattosalesMockup() {
             Orders, live.
           </div>
         </div>
-        <div className="flex items-center gap-2 rounded-full border border-[var(--highlight)]/30 bg-[var(--highlight)]/10 px-3 py-1">
+        <div className="flex items-center gap-2 rounded-full border border-[var(--brass-soft)]/30 bg-[var(--brass-soft)]/10 px-3 py-1">
           <span className="relative flex h-1.5 w-1.5">
-            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[var(--highlight)] opacity-75" />
-            <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-[var(--highlight)]" />
+            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[var(--brass-soft)] opacity-75" />
+            <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-[var(--brass-soft)]" />
           </span>
-          <span className="font-mono text-[10px] uppercase tracking-widest text-[var(--highlight)]">
+          <span className="font-mono text-[10px] uppercase tracking-widest text-[var(--brass-soft)]">
             Live
           </span>
         </div>
@@ -167,7 +167,7 @@ function Stat({
           gold
             ? "text-[var(--gold)]"
             : tint
-              ? "text-[var(--highlight)]"
+              ? "text-[var(--brass-soft)]"
               : "text-foreground"
         }`}
       >
@@ -198,7 +198,7 @@ function OrderRow({
               s <= stage
                 ? s === 4
                   ? "bg-[var(--gold)]"
-                  : "bg-[var(--highlight)]"
+                  : "bg-[var(--brass-soft)]"
                 : "bg-foreground/10"
             }`}
           />
