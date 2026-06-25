@@ -31,9 +31,6 @@
   --color-gold-soft: var(--gold-soft);
   --color-brass: var(--brass);
   --color-brass-soft: var(--brass-soft);
-  --color-emerald: var(--emerald);
-  --color-emerald-soft: var(--emerald-soft);
-  --color-highlight: var(--highlight);
   --radius-sm: calc(var(--radius) * 0.6);
   --radius-md: calc(var(--radius) * 0.8);
   --radius-lg: var(--radius);
@@ -67,10 +64,6 @@
   --brass-soft: oklch(0.62 0.078 70);
   --gold: var(--brass);
   --gold-soft: var(--brass-soft);
-  /* Legacy emerald/highlight aliases — kept so any leftover refs still work */
-  --emerald: var(--brass);
-  --emerald-soft: var(--brass-soft);
-  --highlight: var(--brass-soft);
 }
 
 /* DARK — Warm Charcoal + Cream + Antique Brass */
@@ -97,9 +90,6 @@
   --brass-soft: oklch(0.74 0.07 72);
   --gold: var(--brass);
   --gold-soft: var(--brass-soft);
-  --emerald: var(--brass);
-  --emerald-soft: var(--brass-soft);
-  --highlight: var(--brass-soft);
 }
 
 @layer base {
@@ -177,14 +167,6 @@
   /* Polished brass gradient text — looks like brushed metal.
      Uses literal hex so it works regardless of CSS-var state. */
   .text-gradient-brass {
-    background-image: linear-gradient(135deg, #8C6E33 0%, #B89455 55%, #DCB97C 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    color: #B89455;
-  }
-  /* Back-compat alias from the old mint era */
-  .text-gradient-gold-mint {
     background-image: linear-gradient(135deg, #8C6E33 0%, #B89455 55%, #DCB97C 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

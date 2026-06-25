@@ -61,7 +61,7 @@ export function ContactForm() {
               onClick={() => setIntent(it)}
               className={`rounded-full border px-3.5 py-1.5 text-sm transition-all ${
                 intent === it
-                  ? "border-[var(--emerald)] bg-[var(--emerald)]/10 text-[var(--emerald)]"
+                  ? "border-[var(--brass)] bg-[var(--brass)]/10 text-[var(--brass)]"
                   : "border-border bg-background text-muted-foreground hover:text-foreground"
               }`}
             >

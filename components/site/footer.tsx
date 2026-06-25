@@ -106,8 +106,8 @@ export function SiteFooter() {
         <div className="mt-16 flex flex-col gap-4 border-t border-border pt-6 text-xs text-muted-foreground sm:flex-row sm:items-center sm:justify-between">
           <div className="flex items-center gap-3">
             <span className="relative flex h-1.5 w-1.5">
-              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[var(--highlight)] opacity-60" />
-              <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-[var(--highlight)]" />
+              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[var(--brass-soft)] opacity-60" />
+              <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-[var(--brass-soft)]" />
             </span>
             <span className="font-mono uppercase tracking-widest">
               CAC Verified · Status: {company.status}
